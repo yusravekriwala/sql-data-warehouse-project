@@ -30,3 +30,6 @@ These insights empower stakeholders with key oiness metrics, enabling strategic 
 
 ## License:
 This project is licensed under the [MIT License] (LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+## About me:
+Hi! I'm Yusra, a masters student who is pursuing her education in data analytics from the University of Venice. My expertise are SQL, Python, Advanced MS Excel and power BI.
