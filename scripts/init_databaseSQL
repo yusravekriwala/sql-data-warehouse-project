@@ -1,1 +1,21 @@
+/*
+==========================================================
+Create Database and Schemas
+==========================================================
+Script Purpose:
+   This script creates the database named "Datawarehouse" if not exists to prevent duplication of new database. In addition to it, this script sets up 3 schemas silver, gold, 
+and bronze.
+*/
 
+
+-- Create the 'Datawarehouse' databases
+CREATE DATABASE DataWarehouse;
+
+-- USE datawarehouse databases that are being created
+USE Datawarehouse;
+
+-- Create schemas for Medallion Architecture
+-- Create Schemas
+CREATE SCHEMA bronze;
+CREATE SCHEMA Silver;
+CREATE SCHEMA Gold;
