@@ -2,10 +2,8 @@
 ===============================================================================
 TRANSFORMATION: BRONZE TO SILVER
 ===============================================================================
-Description:
-    1. Loads raw CSV data into the database.
-    2. Performs Data Quality (DQ) checks.
-    3. Transforms and cleanses data from Bronze to Silver layer.
+Description:This script performs ETL process to populate the silver schema to bronze schema.  
+Action performed: Truncates the silver tables and insert the cleansed and transformed data from bronze to silver layer. 
 ===============================================================================
 */
 
